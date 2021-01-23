@@ -18,4 +18,5 @@ class PostsController < ApplicationController
 
     item = Post.find(params[:id])
     render ison: { post: item }
+  end
 end
